@@ -21,13 +21,13 @@ const Home = () => {
       </span>
       <Button value="Contact" />
     </div>
-    <div>
+    <div className="relative w-[50%] h-[400px] flex justify-center items-center">
       <Image
         src={profileImage}
         alt="Profile Image"   
         width={400}
         height={60}
-        className=""
+        className="absolute -bottom-10 object-cover"
       />
     </div>
     </div>

@@ -25,22 +25,22 @@ export default function ContactSection() {
           </p>
           <ul className="space-y-6 text-white">
             <li className="flex items-center gap-4">
-              <span className="bg-[#38BDF8] bg-opacity-20 p-3 rounded-full">
+              <span className="  p-3 rounded-full">
                 <FaPhoneAlt className="text-[#38BDF8] text-xl" />
               </span>
-              +91 7894567890
+              +971 542463204
             </li>
             <li className="flex items-center gap-4">
-              <span className="bg-[#C084FC] bg-opacity-20 p-3 rounded-full">
+              <span className=" bg-opacity-20 p-3 rounded-full">
                 <FaEnvelope className="text-[#C084FC] text-xl" />
               </span>
-              mail@example.com
+              ashlymargaret030@gmail.com
             </li>
             <li className="flex items-center gap-4">
-              <span className="bg-[#A78BFA] bg-opacity-20 p-3 rounded-full">
+              <span className=" bg-opacity-20 p-3 rounded-full">
                 <FaMapMarkerAlt className="text-[#A78BFA] text-xl" />
               </span>
-              123 Demo st. 84020 Bihar, India
+              Abu Dhabi, UAE
             </li>
           </ul>
         </div>
@@ -51,7 +51,7 @@ export default function ContactSection() {
               <label className="block text-white mb-2">Name</label>
               <input
                 type="text"
-                placeholder="Soni kumari"
+                placeholder="Ashly Margaret"
                 className="w-full px-4 py-2 rounded-lg bg-[#2B2342] text-white focus:outline-none"
               />
             </div>
@@ -59,7 +59,7 @@ export default function ContactSection() {
               <label className="block text-white mb-2">Email</label>
               <input
                 type="email"
-                placeholder="Soniya344@gmail.com"
+                placeholder="ashlymargaret030@gmail.com"
                 className="w-full px-4 py-2 rounded-lg bg-[#2B2342] text-white focus:outline-none"
               />
             </div>

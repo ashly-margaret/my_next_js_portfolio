@@ -14,7 +14,7 @@ import Eclipse from "../eclipse/Eclipse";
 
 const About = () => {
   return (
-    <div>
+    <div className="pb-10">
       <div className="w-full flex justify-center items-center p-10 rounded-[10px]  p-4">
         <h3 className="colors text-4xl font-bold text-white">About</h3>
       </div>
