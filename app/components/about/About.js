@@ -19,14 +19,21 @@ const About = () => {
         <h3 className="colors text-4xl font-bold text-white">About</h3>
       </div>
       <span className="text-white text-md p-10 max-w-[950px] mx-auto text-justify block">
-        I’m a junior front-end developer looking for a new role in an exciting
-        company. I focus on writing accessible HTML, using modern CSS practices
-        and writing clean JavaScript. When writing JavaScript code, I mostly use
-        React, but I can adapt to whatever tools are required. I’m based in
-        London, UK, but I’m happy working remotely and have experience in remote
-        teams. When I’m not coding, you’ll find me outdoors. I love being out in
-        nature whether that’s going for a walk, run or cycling. I’d love you to
-        check out my work.
+        I’m a front-end developer based in the UAE, with a passion for
+        creating beautiful and functional web applications. I have a strong
+        foundation in HTML, CSS, and JavaScript, and I’m always eager to learn
+        new technologies and improve my skills. I enjoy working on projects that  
+        challenge me and allow me to express my creativity. I’m
+        passionate about writing clean, maintainable code and following best
+        practices in web development. I’m also committed to continuous learning
+        and staying up-to-date with the latest trends and technologies in the
+        industry. I’m currently looking for new opportunities to grow as a
+        front-end developer and contribute to exciting projects. If you’re
+        looking for a dedicated and enthusiastic developer to join your team,
+        feel free to reach out. I’d love to hear from you and discuss how I can
+        contribute to your projects. Let’s connect and create something amazing
+        together!
+       
       </span>
       <div className="flex flex-wrap gap-6 text-4xl text-white justify-center items-center">
         <div className="p-3 rounded-full bg-[#251C31]">
