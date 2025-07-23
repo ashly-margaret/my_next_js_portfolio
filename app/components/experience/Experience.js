@@ -38,25 +38,9 @@ const work = [
 ];
 
 
-const projects = [
-  {
-    icon: <FaCode className="text-[#AE0CA7]" size={20} />,
-    title: "Netflix Clone",
-    time: "June 2024",
-    description:
-      "Built a Netflix clone using React with responsive design and movie data fetched via TMDB API. Implemented Firebase Auth and dynamic routing.",
-    link: "https://netflix-movie-site-clone.vercel.app/",
-  },
-  {
-    icon: <FaCode className="text-[#AE0CA7]" size={20} />,
-    title: "To-Do App",
-    time: "April 2024",
-    description:
-      "A simple yet effective to-do list app with task filtering and local storage, built in React and styled with Tailwind CSS.",
-  },
-];
 
-const Section = ({ title, data }) => (
+
+const Section = ({ title, data ,work}) => (
   <motion.div
     initial={{ opacity: 0, y: 20 }}
     whileInView={{ opacity: 1, y: 0 }}
@@ -93,7 +77,7 @@ const Section = ({ title, data }) => (
                 rel="noopener noreferrer"
                 className="text-sm text-[#5DFFFF] hover:underline"
               >
-                View Project ↗
+                Go to Website ↗
               </a>
             )}
           </div>
@@ -121,8 +105,7 @@ const Experience = () => {
 
       {/* Sections */}
       <Section title="🎓 Education" data={education} />
-      <Section title="💼 Work Experience" data={work} />
-      <Section title="🛠️ Projects" data={projects} />
+      <Section title="💼 Work Experience" data={work}  />
     </div>
   );
 };
