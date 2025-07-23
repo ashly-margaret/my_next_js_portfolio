@@ -75,7 +75,7 @@ const Home = () => {
             Front-End Developer.
           </h3>
           <span className="text-white text-md">
-            A self-taught front-end developer with over 2 months of experience, I
+            A self-taught front-end developer with over 2 years of experience, I
             build responsive and user-friendly websites & app. I focus on clean
             code and efficient design, ensuring seamless interactions that align
             with both user expectations and business objectives.

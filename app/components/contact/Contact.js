@@ -116,7 +116,7 @@ export default function ContactSection() {
           className="flex justify-center items-center gap-6 mt-6"
         >
           <motion.a
-            href="https://www.linkedin.com/in/ashly-margaret"
+            href="https://www.linkedin.com/in/ashly-margaret/"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2 }}
