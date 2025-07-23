@@ -83,8 +83,8 @@ const Work = () => {
         viewport={{ once: true }}
         className="flex flex-col items-center justify-center gap-4 text-white p-6"
       >
-        <h3 className="colors text-4xl font-bold text-white">Recent Work</h3>
-        <span>A collection of projects I've worked on.</span>
+        <h3 className="colors text-4xl font-bold text-white">Hands-on Practice Projects</h3>
+        <span>A collection of hands-on projects I'm building to sharpen my skills.</span>
       </motion.div>
 
       {/* Project Cards with staggered animation */}
