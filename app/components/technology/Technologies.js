@@ -80,7 +80,7 @@ const Technologies = () => {
       </motion.ul>
 
       {/* Resume Download Button */}
-      <div className="mt-10 text-center">
+      {/* <div className="mt-10 text-center">
         <motion.a
           href="/assets/resume.pdf" // Put your actual resume file path here
           download="Ashly_Margaret_Resume.pdf"
@@ -92,7 +92,7 @@ const Technologies = () => {
         >
           Download Resume
         </motion.a>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -83,7 +83,7 @@ import Eclipse from "../eclipse/Eclipse";
 
 const About = () => {
   return (
-    <div className="pb-10">
+    <div className="">
       {/* Animated Heading */}
       <motion.div
         initial={{ opacity: 0, y: -30 }}

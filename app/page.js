@@ -19,7 +19,7 @@ export default function Page() {
       <section id="about">
         <About />
       </section>
-        <section id="experience" className="pt-6 pb-6">
+        <section id="experience" className=" pb-6">
        <Experience/>
       </section>
         <section id="technologies" className="pt-6 pb-6">

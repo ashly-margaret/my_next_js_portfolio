@@ -76,7 +76,7 @@ const Home = () => {
           </h3>
           <span className="text-white text-md">
             A self-taught front-end developer with over 2 years of experience, I
-            build responsive and user-friendly websites & app. I focus on clean
+            build responsive and user-friendly websites . I focus on clean
             code and efficient design, ensuring seamless interactions that align
             with both user expectations and business objectives.
           </span>
