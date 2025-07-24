@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import React from "react";
@@ -78,38 +76,48 @@ const Work = () => {
     <div>
       {/* Section Title */}
 
-<div className="flex flex-col items-center justify-center gap-4 text-white p-6">
-  <h3 className="colors text-4xl font-bold text-white">Company Projects</h3>
-  <span>Projects I’ve contributed to professionally during my work experience.</span>
+      <div className="flex flex-col items-center justify-center gap-4 text-white p-6">
+        <h3 className="colors text-4xl font-bold text-white">
+          Company Projects
+        </h3>
+        <span>
+          Projects I’ve contributed to professionally during my work experience.
+        </span>
 
-  <div className="flex flex-col gap-6 w-full max-w-3xl mt-6">
- <CompanyProjectDetails
-  title="Face Match Advanced Web (Admin Dashboard)"
-  description="An advanced biometric admin dashboard enabling facial recognition-based identity searches across government datasets. Users can upload an image to retrieve matched Emirates ID, unified number, passport data, and similarity scores — along with travel history displayed directly in the UI. The system also supports reverse searches by ID, name, or document number."
-  features={["Image comparisonwith similarity scoring",
-    "Search history tracking per session/user",
-    "User management for both mobile and web users","Government-linked companies displayed using verified identifier data"]}
-
-  technologies={[
-    "React.js",
-    "Tailwind CSS",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "Face Recognition API",
-    "JWT Auth",
-    "Framer Motion",
-    "Role-based Access Control",
-  ]}
-/>
-    {/* <CompanyProjectDetails
-      title="E-commerce Integration"
-      description="Integrated a third-party payment system and order tracking into the company’s existing retail platform."
-      technologies={['Next.js', 'Stripe API', 'Tailwind CSS']}
-    /> */}
-  </div>
-</div>
-
+        <div className="flex flex-col gap-6 w-full max-w-3xl mt-6">
+          <CompanyProjectDetails
+            title="Face Match Advanced Web (Admin Dashboard)"
+            description="An advanced admin dashboard enabling facial recognition-based identity searches across government datasets. Users can upload an image to retrieve matched Emirates ID, unified number, passport data, and similarity scores — along with travel history displayed directly in the UI. The system also supports reverse searches by ID, name, or document number."
+            features={[
+              "Image comparisonwith similarity scoring",
+              "Search history tracking per user",
+              "User management for both mobile and web users",
+              "Government-linked companies displayed using verified identifier data",
+            ]}
+            technologies={[
+              "React.ts",
+              "Redux Toolkit",
+              "Redux Saga",
+              "Material UI",
+            ]}
+          />
+          <CompanyProjectDetails
+            title="Master Data Fetch (Potrait Dashboard)"
+            description="This project is a responsive and secure web dashboard designed for quickly retrieving personal information using either an Emirates ID (EID) or a Passport Number."
+            technologies={["React.js", "sass" ,"Redux Toolkit", "Antdesign"]}
+          />
+            <CompanyProjectDetails
+            title="Purelive Dashboard"
+            description="Purelive is a secure dashboard designed to manage clients using Liveness and OCR APIs. It offers client account management, real-time API monitoring, performance tracking, license expiry alerts and updates, and detailed client information. The platform ensures data security with end-to-end encryption and PKI (Public Key Infrastructure) integration."
+            technologies={["React.ts","tailwindcss",]}
+          />
+           <CompanyProjectDetails
+            title="RHSERV Service Status Dashboard"
+            description="RHSERV is a real-time dashboard designed to monitor the status of RHSERV services and track ICA transaction reports. It highlights key metrics such as match, no match, and mismatches in identity verification processes. The dashboard provides clear visibility into transaction outcomes, helping ensure accuracy, reliability, and quick resolution of service issues."
+            technologies={["React.js", "Antdesign","sass"]}
+          />
+        </div>
+      </div>
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -118,8 +126,12 @@ const Work = () => {
         viewport={{ once: true }}
         className="flex flex-col items-center justify-center gap-4 text-white p-6"
       >
-        <h3 className="colors text-4xl font-bold text-white">Hands-on Practice Projects</h3>
-        <span>A collection of hands-on projects I'm building to sharpen my skills.</span>
+        <h3 className="colors text-4xl font-bold text-white">
+          Hands-on Practice Projects
+        </h3>
+        <span>
+          A collection of hands-on projects I'm building to sharpen my skills.
+        </span>
       </motion.div>
 
       {/* Project Cards with staggered animation */}
