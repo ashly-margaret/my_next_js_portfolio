@@ -5,48 +5,44 @@ import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { SlGlobe } from "react-icons/sl";
 
-const ProjectDetails = ({ src, title, reverse = false, url, git, desc }) => {
+const ProjectDetails = ({ src, title, url, git, desc }) => {
   return (
-    <div
-      className={`w-[90%] max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center gap-10 p-8 rounded-2xl shadow-lg bg-gradient-to-br from-[#14092B] via-[#1C0E35] to-[#2B0B3A] text-white ${
-        reverse ? "md:flex-row-reverse" : ""
-      }`}
-    >
-      {/* Text Section */}
-      <div className="w-full md:w-[55%] flex flex-col gap-5">
-        <span className="text-[#5DFFFF] tracking-wider uppercase text-sm font-medium">
-          Featured Project
-        </span>
-        <h3 className="text-2xl font-bold text-white">{title}</h3>
-
-        <div className="bg-[#210B38] p-5 rounded-xl text-sm leading-relaxed">
-          <span>
-            {desc ||
-              "This is a project description. It can be customized to provide details about the project, its features, and technologies used."}
-          </span>
-        </div>
-
-        <div className="flex items-center gap-5 text-2xl">
-          <FaGithub
-            className="hover:text-[#5DFFFF] cursor-pointer transition duration-300"
-            onClick={() => window.open(git, "_blank")}
-          />
-          <SlGlobe
-            className="hover:text-[#5DFFFF] cursor-pointer transition duration-300"
-            onClick={() => window.open(url, "_blank")}
-          />
-        </div>
-      </div>
-
-      {/* Image Section */}
-      <div className="w-full md:w-[45%] flex-shrink-0 rounded-xl overflow-hidden shadow-md border border-[#3C1C5A] bg-[#2B0B3A] p-2">
+    <div className="bg-gradient-to-br from-[#14092B] via-[#1C0E35] to-[#2B0B3A] rounded-2xl shadow-lg border border-[#2e1d44] p-5 text-white w-[390px]  h-[400px] flex flex-col justify-between">
+      {/* Image */}
+      <div className="w-full h-[190px] rounded-xl overflow-hidden mb-4 border border-[#3C1C5A]">
         <Image
           src={src}
           alt="Project Thumbnail"
           width={400}
           height={200}
-          className="rounded-lg object-cover w-full h-auto"
+          className="w-full h-full object-cover"
         />
+      </div>
+
+      {/* Content */}
+      <div className="flex flex-col gap-3">
+        <h3 className="text-lg font-bold">{title}</h3>
+
+        <p className="text-sm leading-relaxed text-gray-300 line-clamp-4">
+          {desc ||
+            "This is a project description. Customize it to explain what the project does, features, and tech used."}
+        </p>
+
+        {/* Links */}
+        <div className="flex gap-4 mt-3 text-xl">
+          {git && (
+            <FaGithub
+              className="hover:text-[#5DFFFF] cursor-pointer transition duration-300"
+              onClick={() => window.open(git, "_blank")}
+            />
+          )}
+          {url && (
+            <SlGlobe
+              className="hover:text-[#5DFFFF] cursor-pointer transition duration-300"
+              onClick={() => window.open(url, "_blank")}
+            />
+          )}
+        </div>
       </div>
     </div>
   );
