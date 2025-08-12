@@ -7,10 +7,10 @@ const Nav = () => {
 
   return (
     <nav className="w-full bg-[#14092B] text-white sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto relative flex items-center justify-center px-6 py-4">
+      <div className="max-w-7xl mx-auto relative flex items-center justify-center pt-9 pb-3 ">
         {/* Hamburger button - shown on small screens */}
         <button
-          className="sm:hidden absolute left-6 focus:outline-none z-60"
+          className="sm:hidden absolute left-6 py-2 focus:outline-none z-60"  // added py-2 here
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
         >
