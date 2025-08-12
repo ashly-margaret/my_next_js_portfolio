@@ -291,8 +291,10 @@ const Work = () => {
           <CompanyProjectDetails
             title="Purelive Dashboard"
             description="Secure dashboard to manage clients using Liveness and OCR APIs, with license alerts, performance monitoring, and PKI."
-            technologies={["React.ts", "tailwindcss"]}
-             features={[
+  technologies={["Next.js", "Tailwind CSS", "Next.js Server-Client App"
+    
+  ]}
+               features={[
               "Client Management",
               "Licence Expiry Alerts",
               "Licence Updates",
@@ -310,6 +312,21 @@ const Work = () => {
               "User-friendly interface",
             ]}
           />
+           <CompanyProjectDetails
+  title="DMCC Dashboard"
+  description="A real-time liveness verification portal that displays both liveness images and document images for identity checks. The dashboard supports reviewing results, approving or rejecting matches, handling retries, and managing unmatched cases, all with an intuitive interface."
+  technologies={["Next.js", "Tailwind CSS", "Sass"]}
+  features={[
+    "Real-time service monitoring",
+    "Match metrics",
+    "Liveness image and document image display",
+    "Approve / Reject options",
+    "Retry handling",
+    "No-match and match actions",
+    "User-friendly, responsive interface",
+  ]}
+/>
+
         </div>
       </div>
 
