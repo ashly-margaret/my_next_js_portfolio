@@ -97,8 +97,8 @@ const Work = () => {
           Company Projects
         </h3>
         <span>
-          Projects I’ve contributed to professionally during my work experience.
-        </span>
+  {"Projects I've contributed to professionally during my work experience."}      
+    </span>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-6xl mt-6">
           <CompanyProjectDetails
             title="Face Match Advanced Web (Admin Dashboard)"
