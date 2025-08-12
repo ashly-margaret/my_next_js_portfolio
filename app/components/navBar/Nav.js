@@ -7,10 +7,10 @@ const Nav = () => {
 
   return (
     <nav className="w-full bg-[#14092B] text-white sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4 relative">
+      <div className="max-w-7xl mx-auto relative flex items-center justify-center px-6 py-4">
         {/* Hamburger button - shown on small screens */}
         <button
-          className="sm:hidden focus:outline-none z-60"
+          className="sm:hidden absolute left-6 focus:outline-none z-60"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
         >
@@ -42,7 +42,7 @@ const Nav = () => {
           </svg>
         </button>
 
-        {/* Desktop menu */}
+        {/* Desktop menu centered */}
         <div className="hidden sm:flex sm:items-center sm:gap-[60px]">
           {["HOME", "ABOUT", "WORK", "CONTACT"].map((item) => (
             <a
